@@ -1,0 +1,1 @@
+{"version":3,"file":"buttons.js","sourceRoot":"","sources":["../../../src/ui/components/buttons.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,WAAW;IAKvB,OAAO;QACH,OAAO,EAAE,QAAQ,CAAC,cAAc,CAAC,SAAS,CAAC;QAC3C,cAAc,EAAE,QAAQ,CAAC,cAAc,CAAC,aAAa,CAAC;QACtD,iBAAiB,EAAE,QAAQ,CAAC,cAAc,CAAC,cAAc,CAAC;KAC7D,CAAC;AACN,CAAC"}
