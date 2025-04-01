@@ -1,0 +1,24 @@
+{
+    "parser_started": {
+      "message": "Great!\\nParser started working.\\nYou can see progress in your application and close this window."
+    },
+    "go_to_app": {
+      "message": "Go to application"
+    },
+    "choose_amount": {
+      "message": "Choose amount"
+    },
+    "start_parser": {
+      "message": "Start"
+    },
+    "need_help": {
+      "message": "Need help?"
+    },
+    "sign_in_linkedin": {
+      "message": "You need to sign in to your LinkedIn account"
+    },
+    "go_to_linkedin": {
+      "message": "Go to LinkedIn"
+    }
+  }
+  

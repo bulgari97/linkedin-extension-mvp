@@ -1,0 +1,24 @@
+{
+    "parser_started": {
+      "message": "Отлично!\\nПарсер начал работу.\\nВы можете следить за прогрессом в приложении и закрыть это окно."
+    },
+    "go_to_app": {
+      "message": "Перейти в приложение"
+    },
+    "choose_amount": {
+      "message": "Выберите количество"
+    },
+    "start_parser": {
+      "message": "Запустить"
+    },
+    "need_help": {
+      "message": "Нужна помощь?"
+    },
+    "sign_in_linkedin": {
+      "message": "Вам нужно войти в аккаунт LinkedIn"
+    },
+    "go_to_linkedin": {
+      "message": "Перейти в LinkedIn"
+    }
+  }
+  

@@ -1,0 +1,4 @@
+/*
+  This file is need for browser
+  Just ignore it
+*/

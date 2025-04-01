@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn extension (dev)",
+  "version": "0.0.1",
+  "description": "Development version of my extension",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "webRequest",
+    "cookies"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'",
+    "content_scripts": "script-src 'self'; object-src 'none'"
+  },
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "./web-config/background.js", 
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "./ui/popup.html",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["./web-config/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
